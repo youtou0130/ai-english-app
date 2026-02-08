@@ -1,0 +1,277 @@
+<mxfile host="65bd71144e">
+    <diagram id="LKyETCjIXW2gH9vFaKkE" name="ページ1">
+        <mxGraphModel dx="662" dy="331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="120" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="AI英会話アプリ" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#0e8088;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#b0e3e6;shape=mxgraph.mscae.enterprise.database_server" parent="1" vertex="1">
+                    <mxGeometry x="291" y="140" width="38" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font color=&quot;#f9fafb&quot;&gt;OpenAI&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.augmented_ai;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="125" width="78" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="アプリにアクセス" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="240" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="ログイン画面を表示" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="261" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="260" as="sourcePoint"/>
+                        <mxPoint x="380" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.447;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#f9fafb;" parent="1" source="8" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="ログイン情報を入力してログインボタンを押す" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="6" target="8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="370" as="sourcePoint"/>
+                        <mxPoint x="150" y="425" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#f9fafb;" parent="1" source="10" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontColor=#f9fafb;" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="ログイン情報を検証&lt;br&gt;正しいか？" style="rhombus;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="245" y="504" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="トップ画面を表示" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="670" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=none;dashed=1;html=1;fontColor=#f9fafb;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="470" y="3346.919921875" as="sourcePoint"/>
+                        <mxPoint x="470" y="124.99999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=none;dashed=1;html=1;fontColor=#f9fafb;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="190" y="3340" as="sourcePoint"/>
+                        <mxPoint x="190" y="125" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="新規スレッド作成ボタンを押す&lt;br&gt;または英会話履歴を選択する" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="750" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="11" target="19" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="680" as="sourcePoint"/>
+                        <mxPoint x="99" y="750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="英会話画面を表示&lt;br&gt;履歴があれば一緒に表示" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="865" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="19" target="22" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="150" y="790" as="sourcePoint"/>
+                        <mxPoint x="250" y="845" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="録音ボタンを押す" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="960" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="録音を開始する" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="1085" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22" target="24" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="199" y="890" as="sourcePoint"/>
+                        <mxPoint x="90" y="950" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1.001;exitY=0.373;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="24" target="25" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="159" y="990" as="sourcePoint"/>
+                        <mxPoint x="278" y="1060" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="英語で話して、話おわったら、再度録音ボタンを押す" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="1180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="録音を終了する&lt;br&gt;音声を保存する" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="1305" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="25" target="28" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="169" y="1080" as="sourcePoint"/>
+                        <mxPoint x="60" y="1160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="28" target="29" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160.12" y="1210" as="sourcePoint"/>
+                        <mxPoint x="269" y="1297.62" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="テーブルに音声ファイルパスを登録" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="1425" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="29" target="32" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="331" y="1435" as="sourcePoint"/>
+                        <mxPoint x="381" y="1385" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="音声ファイルでWhisper APIリクエスト" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="1545" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="32" target="34" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="309.5" y="1495" as="sourcePoint"/>
+                        <mxPoint x="311" y="1555" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="音声ファイルでWhisper APIリクエスト" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="1630" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.433;entryY=-0.003;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="34" target="36" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="1560" as="sourcePoint"/>
+                        <mxPoint x="458" y="1640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="ユーザーのメッセージを登録" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="261" y="1709" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="36" target="38" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="369" y="1640" as="sourcePoint"/>
+                        <mxPoint x="250" y="1720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="ユーザーのメッセージでGPT APIリクエスト" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="251" y="1825" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="テキストに対する返答を生成してレスポンスを返す" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="1920" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="38" target="40" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="331" y="1855" as="sourcePoint"/>
+                        <mxPoint x="381" y="1805" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.425;entryY=-0.02;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="40" target="41" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="1840" as="sourcePoint"/>
+                        <mxPoint x="482.96000000000004" y="1899.8200000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontColor=#f9fafb;" parent="1" source="44" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="返答のテキスト（AIのメッセージ）をDBに登録" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="251" y="2000" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="41" target="44" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="1940" as="sourcePoint"/>
+                        <mxPoint x="230" y="1984" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="AIのメッセージでTTS APIリクエスト" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="2120" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="テキストから音声を生成してレスポンスを返す" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="2220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="46" target="48" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="377" y="2141.2" as="sourcePoint"/>
+                        <mxPoint x="478" y="2210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="AIのメッセージとして音声ファイルを保存" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="261" y="2315" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="48" target="50" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="314" y="2230" as="sourcePoint"/>
+                        <mxPoint x="204" y="2290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="音声ファイルパスをDBに登録" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="2445" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="50" target="52" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="331" y="2385" as="sourcePoint"/>
+                        <mxPoint x="329" y="2415" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="英会話画面にAIの返答のテキストを表示" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="2565" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="52" target="54" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="282" y="2515" as="sourcePoint"/>
+                        <mxPoint x="281" y="2585" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="英会話画面でAIの音声を再生" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="261" y="2675" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="54" target="56" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330.5" y="2625" as="sourcePoint"/>
+                        <mxPoint x="330.5" y="2685" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="日本語訳ボタンを押す" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="2760" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="56" target="58" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="190" y="2690" as="sourcePoint"/>
+                        <mxPoint x="80" y="2750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="GPTに英語のテキストを日本語訳するリクエストを送信" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="2855" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="58" target="61" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="199" y="2760" as="sourcePoint"/>
+                        <mxPoint x="270" y="2830" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="英語のテキストを日本語訳してレスポンスを返す" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="2940" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="61" target="64" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="393" y="2860" as="sourcePoint"/>
+                        <mxPoint x="517" y="2910" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontColor=#f9fafb;" parent="1" source="66" target="68" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="日本語訳のメッセージをDBに登録" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="3035" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="endArrow=classic;html=1;fontColor=#f9fafb;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="64" target="66" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="355" y="2950" as="sourcePoint"/>
+                        <mxPoint x="230" y="3020" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="英会話画面に日本語訳のメッセージを表示" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#f9fafb;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="3155" width="130" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
